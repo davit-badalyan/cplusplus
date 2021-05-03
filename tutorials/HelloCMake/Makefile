@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/david/Projects/personal/cplusplus/HelloCMake
+CMAKE_SOURCE_DIR = /home/david/Projects/personal/cplusplus/tutorials/HelloCMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/david/Projects/personal/cplusplus/HelloCMake
+CMAKE_BINARY_DIR = /home/david/Projects/personal/cplusplus/tutorials/HelloCMake
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/david/Projects/personal/cplusplus/HelloCMake/CMakeFiles /home/david/Projects/personal/cplusplus/HelloCMake/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/david/Projects/personal/cplusplus/tutorials/HelloCMake/CMakeFiles /home/david/Projects/personal/cplusplus/tutorials/HelloCMake/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/david/Projects/personal/cplusplus/HelloCMake/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/david/Projects/personal/cplusplus/tutorials/HelloCMake/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,17 +111,17 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named Test
+# Target rules for targets named HelloCMake
 
 # Build rule for target.
-Test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 Test
-.PHONY : Test
+HelloCMake: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 HelloCMake
+.PHONY : HelloCMake
 
 # fast build rule for target.
-Test/fast:
-	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
-.PHONY : Test/fast
+HelloCMake/fast:
+	$(MAKE) -f CMakeFiles/HelloCMake.dir/build.make CMakeFiles/HelloCMake.dir/build
+.PHONY : HelloCMake/fast
 
 src/main.o: src/main.cpp.o
 
@@ -129,7 +129,7 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/src/main.cpp.o
+	$(MAKE) -f CMakeFiles/HelloCMake.dir/build.make CMakeFiles/HelloCMake.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -138,7 +138,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/src/main.cpp.i
+	$(MAKE) -f CMakeFiles/HelloCMake.dir/build.make CMakeFiles/HelloCMake.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -147,7 +147,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/src/main.cpp.s
+	$(MAKE) -f CMakeFiles/HelloCMake.dir/build.make CMakeFiles/HelloCMake.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -158,7 +158,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... Test"
+	@echo "... HelloCMake"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

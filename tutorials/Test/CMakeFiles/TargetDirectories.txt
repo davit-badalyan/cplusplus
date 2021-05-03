@@ -1,3 +1,0 @@
-/home/david/Projects/personal/cplusplus/Test/CMakeFiles/rebuild_cache.dir
-/home/david/Projects/personal/cplusplus/Test/CMakeFiles/edit_cache.dir
-/home/david/Projects/personal/cplusplus/Test/CMakeFiles/Test.dir

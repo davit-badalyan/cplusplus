@@ -1,0 +1,3 @@
+/home/david/Projects/personal/cplusplus/tutorials/casting/CMakeFiles/rebuild_cache.dir
+/home/david/Projects/personal/cplusplus/tutorials/casting/CMakeFiles/edit_cache.dir
+/home/david/Projects/personal/cplusplus/tutorials/casting/CMakeFiles/casting.dir

@@ -44,16 +44,16 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/david/Projects/personal/cplusplus/HelloCMake
+CMAKE_SOURCE_DIR = /home/david/Projects/personal/cplusplus/tutorials/HelloCMake
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/david/Projects/personal/cplusplus/HelloCMake
+CMAKE_BINARY_DIR = /home/david/Projects/personal/cplusplus/tutorials/HelloCMake
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/Test.dir/all
+all: CMakeFiles/HelloCMake.dir/all
 
 .PHONY : all
 
@@ -63,36 +63,36 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/Test.dir/clean
+clean: CMakeFiles/HelloCMake.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/Test.dir
+# Target rules for target CMakeFiles/HelloCMake.dir
 
 # All Build rule for target.
-CMakeFiles/Test.dir/all:
-	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/depend
-	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/david/Projects/personal/cplusplus/HelloCMake/CMakeFiles --progress-num=1,2 "Built target Test"
-.PHONY : CMakeFiles/Test.dir/all
+CMakeFiles/HelloCMake.dir/all:
+	$(MAKE) -f CMakeFiles/HelloCMake.dir/build.make CMakeFiles/HelloCMake.dir/depend
+	$(MAKE) -f CMakeFiles/HelloCMake.dir/build.make CMakeFiles/HelloCMake.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/david/Projects/personal/cplusplus/tutorials/HelloCMake/CMakeFiles --progress-num=1,2 "Built target HelloCMake"
+.PHONY : CMakeFiles/HelloCMake.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/Test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/david/Projects/personal/cplusplus/HelloCMake/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/Test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/david/Projects/personal/cplusplus/HelloCMake/CMakeFiles 0
-.PHONY : CMakeFiles/Test.dir/rule
+CMakeFiles/HelloCMake.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/david/Projects/personal/cplusplus/tutorials/HelloCMake/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/HelloCMake.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/david/Projects/personal/cplusplus/tutorials/HelloCMake/CMakeFiles 0
+.PHONY : CMakeFiles/HelloCMake.dir/rule
 
 # Convenience name for target.
-Test: CMakeFiles/Test.dir/rule
+HelloCMake: CMakeFiles/HelloCMake.dir/rule
 
-.PHONY : Test
+.PHONY : HelloCMake
 
 # clean rule for target.
-CMakeFiles/Test.dir/clean:
-	$(MAKE) -f CMakeFiles/Test.dir/build.make CMakeFiles/Test.dir/clean
-.PHONY : CMakeFiles/Test.dir/clean
+CMakeFiles/HelloCMake.dir/clean:
+	$(MAKE) -f CMakeFiles/HelloCMake.dir/build.make CMakeFiles/HelloCMake.dir/clean
+.PHONY : CMakeFiles/HelloCMake.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

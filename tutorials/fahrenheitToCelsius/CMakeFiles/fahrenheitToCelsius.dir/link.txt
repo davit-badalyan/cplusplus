@@ -1,0 +1,1 @@
+/usr/bin/c++   -Wall -Werror -std=c++14 -g   CMakeFiles/fahrenheitToCelsius.dir/src/main.cpp.o  -o fahrenheitToCelsius 

@@ -16,3 +16,15 @@ $ sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
 
 g++ main.cpp -o firstOpenGlApp -lglut -lGLU -lGL
 ./firstOpenGlApp
+
+# CMAKE
+# for cmake projects, copy ProjectSetup directory
+# rename it for your project
+
+cd YourProject
+
+# change ProjectName in CMakeLists.txt 
+# corresponding to your project name 
+
+./build.sh
+codelite YourProject.workspace
